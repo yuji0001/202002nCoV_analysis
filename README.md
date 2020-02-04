@@ -5,7 +5,7 @@ Anlysis of 2019-nCoV disease
 このコードでは，新型コロナウィルス（2019-nCoV）の数理モデル化と予測を行います．
 
 ## 詳細 Description
-このコードは， 現在の伝染病をSIRもでるSIERモデルで記述します．
+このコードは， 現在の伝染病をSIRで記述し，新型コロナウィルスの将来を予測します．
 
 ## データの説明: Data Description
 
