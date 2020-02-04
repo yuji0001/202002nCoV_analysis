@@ -1,5 +1,4 @@
 Anlysis of 2019-nCoV disease
-
 ===
 
 このコードでは，新型コロナウィルス（2019-nCoV）の数理モデル化と予測を行います．
@@ -10,12 +9,29 @@ Anlysis of 2019-nCoV disease
 ## データの説明: Data Description
 
  - ``data/2019_nCoV_data.csv`` : 
-新コロナウィルスの感染，死者と回復した人数のデータ． 
+新型コロナウィルスの感染，死者と回復した人数のデータ． 
 データは[こちら](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset/data)から引用しています．
 
  - ``data/2017_China_data.csv`` : 
 2017年の中国の人工データ．[こちら](https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_population)の人口統計データを用いています．
-  
+
+## プログラムの説明 : Code Description
+- ``data_check.ipynb`` : テスト用
+- ``Hubei_model.ipynb`` : 武漢の新型コロナウィルスの結果をSIRモデルで近似し，将来を予測する．
+
+![img1](sample_img/Hubei_time_dose.png)
+
+↑武漢の新型コロナウィルスの時間変化
+
+![img2](sample_img/SIR_model_Hubei.png)
+
+↑SIRモデルで近似した結果．
+ただし，recovered people =  回復した人+死亡した人
+
+![img3](sample_img/Hubei_future.png)
+
+↑SIRモデルによる一年度までの予測結果．
+
 
 ## 謝辞 Acknowledgements
 データをまとめていただいた方に感謝いたします．
