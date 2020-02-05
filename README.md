@@ -36,6 +36,9 @@ Anlysis of 2019-nCoV disease
 
 ↑SIRモデルによる一年後までの予測結果．
 
+## その他のファイル : the other files
+
+- ``blog/*`` : ブログに乗せる文書をおいてます．
 
 ## 謝辞 Acknowledgements
 データをまとめていただいた方に感謝いたします．
