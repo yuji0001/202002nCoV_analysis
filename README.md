@@ -28,9 +28,13 @@ Anlysis of 2019-nCoV disease
 ↑SIRモデルで近似した結果．
 ただし，recovered people =  回復した人+死亡した人
 
-![img3](sample_img/Hubei_future.png)
+![img3](sample_img/Hubei_10days_future.png)
 
-↑SIRモデルによる一年度までの予測結果．
+↑SIRモデルによる10日後までの予測結果．
+
+![img4](sample_img/Hubei_365days_future.png)
+
+↑SIRモデルによる一年後までの予測結果．
 
 
 ## 謝辞 Acknowledgements
