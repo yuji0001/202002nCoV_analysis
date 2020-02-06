@@ -17,11 +17,11 @@ Anlysis of 2019-nCoV disease
 
 ## プログラムの説明 : Code Description
 - ``data_check.ipynb`` : テスト用
-- ``Hubei_model.ipynb`` : 武漢の新型コロナウィルスの結果をSIRモデルで近似し，将来を予測する．
+- ``Hubei_model.ipynb`` : 湖北省（武漢を含む省）の新型コロナウィルスの結果をSIRモデルで近似し，将来を予測する．
 
 ![img1](sample_img/Hubei_time_dose.png)
 
-↑武漢の新型コロナウィルスの時間変化
+↑湖北省の新型コロナウィルスの時間変化
 
 ![img2](sample_img/SIR_model_Hubei.png)
 
@@ -35,6 +35,8 @@ Anlysis of 2019-nCoV disease
 ![img4](sample_img/Hubei_365days_future.png)
 
 ↑SIRモデルによる一年後までの予測結果．
+
+病気の感染力を表す基本生産性R0は 17.54程度と推定される．
 
 ## その他のファイル : the other files
 
